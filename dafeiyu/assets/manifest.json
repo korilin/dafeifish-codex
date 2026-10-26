@@ -1,13 +1,73 @@
 {
-  "id": "dafeiyu-001",
-  "name": "大肥鱼",
-  "version": "1.3.0",
-  "description": "DeepSeek 鲸鱼娘 chibi 表情包，24 张：得意干饭生气疑问惊吓晕、比心害羞花痴睡觉打招呼躺平、无语求饶嫌弃加班震惊加载、点赞拒绝偷看飘了猫爪求打赏。",
-  "tags": [
-    "dafeiyu",
-    "whale",
-    "chibi",
-    "custom"
-  ],
-  "license": "personal"
+  "id": "dafeiyu-generated-v1",
+  "name": "大肥鱼自生成表情 v1",
+  "version": "2.0.0",
+  "source": "按用户提供的设定图，通过内置 image_gen 生成的新插画；非 dsh-meme 素材。",
+  "reference_credit": "设定图中可见署名 @iamemily2050，原图由用户提供；角色设计权利不因 AI 生成而改变。",
+  "files": [
+    {
+      "id": "rice",
+      "path": "assets/memes/generated-v1/rice.png",
+      "width": 384,
+      "height": 384,
+      "bytes": 198841,
+      "sha256": "1a25c2cba5ebcd81699110d43f284d842741adb356a2a95577034a48a4963ac3"
+    },
+    {
+      "id": "hello",
+      "path": "assets/memes/generated-v1/hello.png",
+      "width": 384,
+      "height": 384,
+      "bytes": 184331,
+      "sha256": "288f4a5ff979927cf5cd8e95dabe01ba610f8240936898314e1116168c09f28d"
+    },
+    {
+      "id": "work",
+      "path": "assets/memes/generated-v1/work.png",
+      "width": 384,
+      "height": 384,
+      "bytes": 196335,
+      "sha256": "0b6ab1288f5bc59291f2dc97d0922754c77656b64ac1f0f296c4290da78805bb"
+    },
+    {
+      "id": "done",
+      "path": "assets/memes/generated-v1/done.png",
+      "width": 384,
+      "height": 384,
+      "bytes": 199855,
+      "sha256": "80e9bb88103eb6a982b2244e4c52e94678616cb1ea239bef19ee433d63271cf7"
+    },
+    {
+      "id": "think",
+      "path": "assets/memes/generated-v1/think.png",
+      "width": 384,
+      "height": 384,
+      "bytes": 183677,
+      "sha256": "c2b39959e46958326271f53f436a079624f908ba86d0016e2792e463deba0651"
+    },
+    {
+      "id": "angry",
+      "path": "assets/memes/generated-v1/angry.png",
+      "width": 384,
+      "height": 384,
+      "bytes": 203359,
+      "sha256": "c35b2491cd3eff60203b8a5e8ecdb4bd9650c0beab8992e1dac80d961dafab8f"
+    },
+    {
+      "id": "tired",
+      "path": "assets/memes/generated-v1/tired.png",
+      "width": 384,
+      "height": 384,
+      "bytes": 189060,
+      "sha256": "0a3fb1a71bee47b0ea0836bd23406b12b1aa80a232c5c67a05452782d7192c1c"
+    },
+    {
+      "id": "heart",
+      "path": "assets/memes/generated-v1/heart.png",
+      "width": 384,
+      "height": 384,
+      "bytes": 187417,
+      "sha256": "d3af49fe561459425bde3ccde53a68f089cc38abe7e7ffeb93c9deb08f1f6048"
+    }
+  ]
 }

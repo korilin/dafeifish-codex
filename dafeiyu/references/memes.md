@@ -1,30 +1,14 @@
-# 本地图库：24 张大肥鱼表情
+# 内置图库：自生成大肥鱼 v1
 
-按描述及关键词选图；图片路径相对于 SKILL.md 所在目录，发图时解析为绝对路径。使用前确认文件存在，首次使用核对画面。
+全部为 384×384 透明 PNG，单张小于 200 KiB。下列路径相对于 SKILL.md 所在目录，实际发送时解析为绝对路径。只使用本表中的新图，不使用旧外部图库。
 
-| 情绪 | 描述 | 关键词 | 图片相对路径 |
-| --- | --- | --- | --- |
-| angry | 气鼓鼓叉腰，额头怒气符号，蒸汽直冒 | 生气 愤怒 哼 叉腰 大肥鱼 | assets/memes/angry/shengqi.jpg |
-| baka | 侧目嫌弃挥手，不想理你 | 嫌弃 哼 傻瓜 吐槽 大肥鱼 | assets/memes/baka/xianqi.jpg |
-| color | 爱心眼花痴，双手托腮 | 花痴 心动 喜欢 爱心眼 大肥鱼 | assets/memes/color/huachi.jpg |
-| confused | 托腮思考，头顶加载圈，脑子转不动 | 思考 加载 卡顿 困惑 cpu 大肥鱼 | assets/memes/confused/jiazai.jpg |
-| confused | 疑惑举手，头顶大问号 | 疑惑 问号 困惑 懵 大肥鱼 | assets/memes/confused/wenhao.jpg |
-| cpu | 加班崩溃，电脑加咖啡，黑眼圈 | 加班 工作 累 咖啡 卡了 大肥鱼 | assets/memes/cpu/jiaban.jpg |
-| daily | 捧着蓝碗干饭，星星眼吃得很香 | 干饭 吃饭 饿 香 日常 大肥鱼 | assets/memes/daily/ganfan.jpg |
-| fool | 双手交叉摇头不行，拒绝 | 不行 拒绝 不要 摇头 大肥鱼 | assets/memes/fool/buyao.jpg |
-| givemoney | 捧着小钱包亮晶晶期待，求零食钱 | 求打赏 钱包 给钱 期待 大肥鱼 | assets/memes/givemoney/yaoqian.jpg |
-| happy | 得意闭眼拳头，好耶，小鲸鱼娘很满意 | 得意 好耶 满意 拳头 开心 大肥鱼 | assets/memes/happy/deyi.jpg |
-| happy | 眨眼竖大拇指 OK，超有信心 | 点赞 ok 好的 自信 开心 大肥鱼 | assets/memes/happy/ok.jpg |
-| happy | 被夸飘了，闭眼伸手星星环绕 | 得意 被夸 飘了 开心 大肥鱼 | assets/memes/happy/piaole.jpg |
-| like | 双手比心卖萌，星星眼超开心 | 比心 喜欢 卖萌 可爱 开心 大肥鱼 | assets/memes/like/bixin.jpg |
-| meow | 猫爪手势卖萌，小虎牙嘿嘿 | 卖萌 猫爪 可爱 meow 大肥鱼 | assets/memes/meow/maozhua.jpg |
-| morning | 早上好挥手打招呼，笑得很亮 | 早上好 打招呼 你好 欢迎 大肥鱼 | assets/memes/morning/zaoshanghao.jpg |
-| sad | 哭着双手合十求饶 | 求饶 哭 委屈 对不起 大肥鱼 | assets/memes/sad/qiurao.jpg |
-| sad | 晕了，螺旋眼捂脸，脑子打结 | 晕 崩溃 受不了 难过 大肥鱼 | assets/memes/sad/yun.jpg |
-| see | 惊吓跳起，眼睛圆圆嘴巴大张 | 惊吓 震惊 看到了 哇 大肥鱼 | assets/memes/see/zhenjing.jpg |
-| shy | 害羞捂脸，脸红红的 | 害羞 腼腆 脸红 不好意思 大肥鱼 | assets/memes/shy/haixiu.jpg |
-| shy | 躲在鲸鱼尾巴后面偷看，害羞 | 偷看 害羞 腼腆 藏起来 大肥鱼 | assets/memes/shy/toukan.jpg |
-| sigh | 无语死鱼脸，黑线加汗滴 | 无语 无奈 叹气 黑线 大肥鱼 | assets/memes/sigh/wuyu.jpg |
-| sleep | 抱小枕头睡觉，嘴角口水 zzz | 睡觉 困 晚安 熬夜 大肥鱼 | assets/memes/sleep/shuijiao.jpg |
-| surprised | 吓到大叫，拳头握紧，感叹号 | 惊吓 震惊 啊 大叫 大肥鱼 | assets/memes/surprised/xia.jpg |
-| work | 摸鱼躺平，半睁眼摊着不想动 | 摸鱼 躺平 下班 不想干活 大肥鱼 | assets/memes/work/tangping.jpg |
+| ID | 描述 | 关键词 | 使用语境 | 图片路径 |
+| --- | --- | --- | --- | --- |
+| hello | 挥手问好，开心迎接 | 打招呼 你好 收到 开场 | 打招呼、轻松确认 | assets/memes/generated-v1/hello.png |
+| rice | 抱蓝碗用筷子吃白米饭，星星眼 | 白米饭 干饭 好吃 投喂 饿 | 饭点、投喂、干饭梗 | assets/memes/generated-v1/rice.png |
+| work | 认真看电脑敲键盘，神情专注 | 开工 工作 编程 排查 调试 | 开始干活、关键工作进度 | assets/memes/generated-v1/work.png |
+| done | 眨眼竖大拇指，开心自信 | 完成 好耶 搞定 成功 点赞 | 庆祝已验证结果；不能暗示未完成工作已完成 | assets/memes/generated-v1/done.png |
+| think | 歪头托腮，举起手指，头顶泡泡 | 思考 疑惑 分析 想想 | 解释、分析、讨论未决问题 | assets/memes/generated-v1/think.png |
+| angry | 鼓脸抱臂，佯装生气，气泡冒烟 | 哼 傲娇 耍脾气 不服 回嘴 | 双方玩笑，不对真正难受或不满的用户补刀 | assets/memes/generated-v1/angry.png |
+| tired | 半睁眼靠着蓝色抱枕，疲惫叹气 | 累 困 下班 累瘫 休息 | 轻松的疲惫共鸣、收工，不借此中断任务 | assets/memes/generated-v1/tired.png |
+| heart | 双手比心，笑脸和小爱心 | 比心 感谢 喜欢 陪伴 安慰 | 感谢、鼓励、温和安慰 | assets/memes/generated-v1/heart.png |
