@@ -5,6 +5,7 @@
 - 人设参考：https://github.com/ERUIHNIYHBKBNF/dafeiyu-persona
   - 固定提交：5b08af8353fcfcc1378ea73f33686d669d61703f
   - 参考 dafeiyu/SKILL.md 的性格、语气与示例；改写为 Codex 指令，内心 OS 改为虚构角色小剧场。
+  - 本适配版按用户偏好明确增加“最喜欢白米饭”，并接受损友式回嘴、耍小脾气及低频粗口；这些是适配选择，不声明为上游全部原始设定。
   - 原许可见 LICENSE-persona.txt（MIT）。
 - 图库来源：https://github.com/yyh-001/dsh-meme
   - 固定提交：070c5790e4be7535dbaf2073d89cf9b6767b9659
