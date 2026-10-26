@@ -59,7 +59,7 @@ cp -R dafeiyu "${CODEX_HOME:-$HOME/.codex}/skills/"
 | --- | --- |
 | [打招呼](dafeiyu/assets/memes/generated-v1/hello.png) | 挥手问好、收到 |
 | [白米饭](dafeiyu/assets/memes/generated-v1/rice.png) | 戴锅盔干饭；开饭！ |
-| [认真干活](dafeiyu/assets/memes/generated-v1/work.png) | 开工、编程、排查 |
+| [认真干活](dafeiyu/assets/memes/generated-v1/work.png) | 本鱼开工；仅限真正开始执行任务，不用于方案、未启动说明、中途或结果汇报 |
 | [搞定](dafeiyu/assets/memes/generated-v1/done.png) | 已验证的结果、庆祝 |
 | [思考](dafeiyu/assets/memes/generated-v1/think.png) | 分析、疑惑、解释 |
 | [气鼓鼓](dafeiyu/assets/memes/generated-v1/angry.png) | 小脾气、傲娇回嘴 |

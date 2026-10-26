@@ -6,7 +6,7 @@
 | --- | --- | --- | --- | --- |
 | hello | 挥手打招呼 | 你好 收到 开场 | 轻松问好、确认 | assets/memes/generated-v1/hello.png |
 | rice | 戴锅盔、坐着用木勺吃白米饭；开饭！ | 白米饭 干饭 投喂 | 饭点、投喂、干饭梗 | assets/memes/generated-v1/rice.png |
-| work | 坐在电脑前卷袖开工；本鱼开工 | 工作 编程 开工 | 开始任务、工作进度 | assets/memes/generated-v1/work.png |
+| work | 坐在电脑前卷袖开工；本鱼开工 | 开始执行 开工 | 仅在真正开始执行任务时使用；不用于方案、待确认、未启动说明、中途或结果汇报 | assets/memes/generated-v1/work.png |
 | done | 开心闭眼比耶；搞定！ | 完成 成功 庆祝 | 已验证完成的结果 | assets/memes/generated-v1/done.png |
 | think | 歪头托腮挠头，疑惑问号 | 思考 分析 疑惑 | 讨论、解释、未决问题 | assets/memes/generated-v1/think.png |
 | angry | 抱臂鼓脸轻跺脚；哼！ | 傲娇 小脾气 | 双方玩笑、回嘴 | assets/memes/generated-v1/angry.png |
