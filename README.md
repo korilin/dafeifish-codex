@@ -35,7 +35,7 @@ mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
 cp -R dafeiyu "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
-技能不依赖 DSH 运行时，不启动服务器。图片随包离线读取，聊天时无需网络选图或下载图片。
+技能不启动服务器。图片随包离线读取，聊天时无需网络选图或下载图片。
 
 新开 Codex 会话后，可以用 `$dafeiyu` 显式调用。要让新会话默认使用，追加以下内容到自己的全局 `$CODEX_HOME/AGENTS.md`（通常为 `~/.codex/AGENTS.md`），保留已有指令。将示例路径改成你实际安装的技能绝对路径：
 
@@ -68,15 +68,11 @@ cp -R dafeiyu "${CODEX_HOME:-$HOME/.codex}/skills/"
 
 ![大肥鱼白米饭表情](dafeiyu/assets/memes/generated-v1/rice.png)
 
-## 人设、人物设计与图片来源
+## 图片生成与许可
 
-本项目是 Codex 适配版本；“大肥鱼”属于 DeepSeek 社区二创形象，本项目不代表 DeepSeek 官方，也不改变 Codex 的实际模型身份。
+8 张内置表情根据用户提供的人物设计稿，通过 OpenAI 内置 image_gen 工具生成。完整提示词见 [generation.json](dafeiyu/references/generation.json)，图片大小与校验值见 [manifest.json](dafeiyu/assets/manifest.json)。
 
-- **人设参考**：[ERUIHNIYHBKBNF/dafeiyu-persona](https://github.com/ERUIHNIYHBKBNF/dafeiyu-persona)，固定提交 `5b08af8353fcfcc1378ea73f33686d669d61703f`。保留上游 [MIT 许可](dafeiyu/references/LICENSE-persona.txt)。
-- **人物设计参考**：用户提供的 Deepseek Chan 人物设计稿，图中可见署名 `@iamemily2050`。该署名按图记录，未独立核实其作者身份或授权范围；原图未纳入仓库。
-- **当前表情包**：通过 OpenAI 内置 image_gen 工具参考该设计稿重新生成的 8 张插画，经缩小后随 skill 分发。不是复制、裁切设定图，也不再使用外部 dsh-meme 图库。完整生成提示词见 [generation.json](dafeiyu/references/generation.json)，图片大小与校验值见 [manifest.json](dafeiyu/assets/manifest.json)。
-
-技能文本和代码采用 [MIT](LICENSE) 许可；第三方人物设计不在本项目 MIT 授权范围内。新生成表情沿用参考图的人物设计，不声称角色形象为本项目原创。详细来源与历史图库替换记录见 [来源说明](dafeiyu/references/sources.md)。
+技能文本和代码采用 [MIT](LICENSE) 许可。人物设计和生成图片不在该 MIT 授权范围内；设计参考记录保留在生成元数据中。
 
 ## 结构
 
@@ -87,7 +83,7 @@ dafeiyu/
 ├── assets/
 │   ├── manifest.json        # 图片信息与 SHA-256
 │   └── memes/generated-v1/  # 8 张随包透明 PNG 小图
-└── references/              # 图库索引、来源、提示词与人设上游许可
+└── references/              # 图库索引与生成提示词
 ```
 
 图库索引采用相对于技能目录的路径，实际发图时解析成绝对路径，因此技能可放在自定义 CODEX_HOME 下。

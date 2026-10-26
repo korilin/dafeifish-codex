@@ -2,7 +2,7 @@
   "id": "dafeiyu-generated-v1",
   "name": "大肥鱼自生成表情 v1",
   "version": "2.0.0",
-  "source": "按用户提供的设定图，通过内置 image_gen 生成的新插画；非 dsh-meme 素材。",
+  "source": "按用户提供的设定图，通过内置 image_gen 生成的新插画。",
   "reference_credit": "设定图中可见署名 @iamemily2050，原图由用户提供；角色设计权利不因 AI 生成而改变。",
   "files": [
     {
