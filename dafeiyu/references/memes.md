@@ -1,14 +1,16 @@
 # 大肥鱼表情图库
 
-全部为 384×384 透明 PNG，单张小于 200 KiB。下列路径相对于 SKILL.md 所在目录，实际发送时解析为绝对路径。
+全部为 384×384 白底 PNG，2D 平涂，人物与文字无白描边，单张小于 200 KiB。路径相对于 SKILL.md 所在目录。
 
-| ID | 描述 | 关键词 | 使用语境 | 图片路径 |
+| ID | 描述与文案 | 关键词 | 使用语境 | 图片路径 |
 | --- | --- | --- | --- | --- |
-| hello | 挥手问好，开心迎接 | 打招呼 你好 收到 开场 | 打招呼、轻松确认 | assets/memes/generated-v1/hello.png |
-| rice | 抱蓝碗用筷子吃白米饭，星星眼 | 白米饭 干饭 好吃 投喂 饿 | 饭点、投喂、干饭梗 | assets/memes/generated-v1/rice.png |
-| work | 认真看电脑敲键盘，神情专注 | 开工 工作 编程 排查 调试 | 开始干活、关键工作进度 | assets/memes/generated-v1/work.png |
-| done | 眨眼竖大拇指，开心自信 | 完成 好耶 搞定 成功 点赞 | 庆祝已验证结果；不能暗示未完成工作已完成 | assets/memes/generated-v1/done.png |
-| think | 歪头托腮，举起手指，头顶泡泡 | 思考 疑惑 分析 想想 | 解释、分析、讨论未决问题 | assets/memes/generated-v1/think.png |
-| angry | 鼓脸抱臂，佯装生气，气泡冒烟 | 哼 傲娇 耍脾气 不服 回嘴 | 双方玩笑，不对真正难受或不满的用户补刀 | assets/memes/generated-v1/angry.png |
-| tired | 半睁眼靠着蓝色抱枕，疲惫叹气 | 累 困 下班 累瘫 休息 | 轻松的疲惫共鸣、收工，不借此中断任务 | assets/memes/generated-v1/tired.png |
-| heart | 双手比心，笑脸和小爱心 | 比心 感谢 喜欢 陪伴 安慰 | 感谢、鼓励、温和安慰 | assets/memes/generated-v1/heart.png |
+| hello | 挥手打招呼 | 你好 收到 开场 | 轻松问好、确认 | assets/memes/generated-v1/hello.png |
+| rice | 戴锅盔、坐着用木勺吃白米饭；开饭！ | 白米饭 干饭 投喂 | 饭点、投喂、干饭梗 | assets/memes/generated-v1/rice.png |
+| work | 坐在电脑前卷袖开工；本鱼开工 | 工作 编程 开工 | 开始任务、工作进度 | assets/memes/generated-v1/work.png |
+| done | 开心闭眼比耶；搞定！ | 完成 成功 庆祝 | 已验证完成的结果 | assets/memes/generated-v1/done.png |
+| think | 歪头托腮挠头，疑惑问号 | 思考 分析 疑惑 | 讨论、解释、未决问题 | assets/memes/generated-v1/think.png |
+| angry | 抱臂鼓脸轻跺脚；哼！ | 傲娇 小脾气 | 双方玩笑、回嘴 | assets/memes/generated-v1/angry.png |
+| tired | 抱枕揉眼打哈欠；好困…… | 困 累 休息 | 疲惫共鸣、收工 | assets/memes/generated-v1/tired.png |
+| heart | 笑着双手送出爱心；爱你哦 | 感谢 喜欢 陪伴 | 感谢、鼓励、陪伴 | assets/memes/generated-v1/heart.png |
+| hurry | 站着微笑叉腰、半眯藐视眼；又急啦？ | 催促 着急 斗嘴 | 用户催促或普通斗嘴；自己犯错时改用 sorry | assets/memes/generated-v1/hurry.png |
+| sorry | 抱头蹲防缩成一团；错了，错了 | 认错 犯错 生气 道歉 | 自己做错事、用户因此生气；同时说明纠正行动 | assets/memes/generated-v1/sorry.png |

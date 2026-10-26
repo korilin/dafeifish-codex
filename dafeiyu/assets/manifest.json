@@ -1,73 +1,88 @@
 {
-  "id": "dafeiyu-generated-v1",
-  "name": "大肥鱼表情 v1",
-  "version": "2.0.0",
-  "source": "按用户提供的设定图，通过内置 image_gen 生成的新插画。",
-  "reference_credit": "设定图中可见署名 @iamemily2050，原图由用户提供；角色设计权利不因 AI 生成而改变。",
+  "id": "dafeiyu",
+  "name": "大肥鱼表情",
+  "version": "3.0.0",
+  "style": "2D 平涂、白色背景、无白描边；部分配黑色短文案。",
   "files": [
-    {
-      "id": "rice",
-      "path": "assets/memes/generated-v1/rice.png",
-      "width": 384,
-      "height": 384,
-      "bytes": 198841,
-      "sha256": "1a25c2cba5ebcd81699110d43f284d842741adb356a2a95577034a48a4963ac3"
-    },
     {
       "id": "hello",
       "path": "assets/memes/generated-v1/hello.png",
       "width": 384,
       "height": 384,
-      "bytes": 184331,
-      "sha256": "288f4a5ff979927cf5cd8e95dabe01ba610f8240936898314e1116168c09f28d"
+      "bytes": 179885,
+      "sha256": "087b201dc11a66f12b5e6a771a2722597e584a8f359ba7c0ea9b2e991c5500aa"
+    },
+    {
+      "id": "rice",
+      "path": "assets/memes/generated-v1/rice.png",
+      "width": 384,
+      "height": 384,
+      "bytes": 171954,
+      "sha256": "d838197588bc7297ac30d2f1390cddabefd2d71b4bfbe9230cb92f5bede82f6f"
     },
     {
       "id": "work",
       "path": "assets/memes/generated-v1/work.png",
       "width": 384,
       "height": 384,
-      "bytes": 196335,
-      "sha256": "0b6ab1288f5bc59291f2dc97d0922754c77656b64ac1f0f296c4290da78805bb"
+      "bytes": 177576,
+      "sha256": "850ecda40f34032eedbaccd9eb05fcec63404486808ca947da1c1990c6183fee"
     },
     {
       "id": "done",
       "path": "assets/memes/generated-v1/done.png",
       "width": 384,
       "height": 384,
-      "bytes": 199855,
-      "sha256": "80e9bb88103eb6a982b2244e4c52e94678616cb1ea239bef19ee433d63271cf7"
+      "bytes": 176424,
+      "sha256": "5bff75d486878640e8771ff9593c0a076d527d3f517feeaed4e3a04681e6e0be"
     },
     {
       "id": "think",
       "path": "assets/memes/generated-v1/think.png",
       "width": 384,
       "height": 384,
-      "bytes": 183677,
-      "sha256": "c2b39959e46958326271f53f436a079624f908ba86d0016e2792e463deba0651"
+      "bytes": 168940,
+      "sha256": "3d8b4d681d8d0f33c5a56bd50360f4c9255866fa8b5a9d7176d4e66efdfbe3be"
     },
     {
       "id": "angry",
       "path": "assets/memes/generated-v1/angry.png",
       "width": 384,
       "height": 384,
-      "bytes": 203359,
-      "sha256": "c35b2491cd3eff60203b8a5e8ecdb4bd9650c0beab8992e1dac80d961dafab8f"
+      "bytes": 176179,
+      "sha256": "c38b24ebf1e01ae9b3c7341cde683dda68d35773849089a8720858b92261e85a"
     },
     {
       "id": "tired",
       "path": "assets/memes/generated-v1/tired.png",
       "width": 384,
       "height": 384,
-      "bytes": 189060,
-      "sha256": "0a3fb1a71bee47b0ea0836bd23406b12b1aa80a232c5c67a05452782d7192c1c"
+      "bytes": 179321,
+      "sha256": "8be63e00ccc076e44e71edf27cd2fb3029a93d49de8f8eefd66d6ec4e8921bcb"
     },
     {
       "id": "heart",
       "path": "assets/memes/generated-v1/heart.png",
       "width": 384,
       "height": 384,
-      "bytes": 187417,
-      "sha256": "d3af49fe561459425bde3ccde53a68f089cc38abe7e7ffeb93c9deb08f1f6048"
+      "bytes": 193930,
+      "sha256": "f10d245a59d78b0f420e4be2428b77ddbd68883e1086a5bd7ded349e6c5cb894"
+    },
+    {
+      "id": "hurry",
+      "path": "assets/memes/generated-v1/hurry.png",
+      "width": 384,
+      "height": 384,
+      "bytes": 173238,
+      "sha256": "1cf4e3df5fe682595f35d491db229329fb799636efcbf3384d8c11efb1c033e3"
+    },
+    {
+      "id": "sorry",
+      "path": "assets/memes/generated-v1/sorry.png",
+      "width": 384,
+      "height": 384,
+      "bytes": 174623,
+      "sha256": "e64387673252cdc3075f24be75b04d304513d09aa1a817c931e6152c945bb7f4"
     }
   ]
 }
