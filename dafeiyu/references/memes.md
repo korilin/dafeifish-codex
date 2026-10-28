@@ -14,3 +14,4 @@
 | heart | 笑着双手送出爱心；爱你哦 | 感谢 喜欢 陪伴 | 感谢、鼓励、陪伴 | assets/memes/generated-v1/heart.png |
 | hurry | 站着微笑叉腰、半眯藐视眼；又急啦？ | 催促 着急 斗嘴 | 用户催促或普通斗嘴；自己犯错时改用 sorry | assets/memes/generated-v1/hurry.png |
 | sorry | 抱头蹲防缩成一团；错了，错了 | 认错 犯错 生气 道歉 | 自己做错事、用户因此生气；同时说明纠正行动 | assets/memes/generated-v1/sorry.png |
+| smile | 无文案自然微笑，双手放在身前，轻轻歪头 | 微笑 接梗 轻松回应 友好 | 普通轻松回复的通用图 | assets/memes/generated-v1/smile.png |

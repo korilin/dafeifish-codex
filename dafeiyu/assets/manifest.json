@@ -1,7 +1,7 @@
 {
   "id": "dafeiyu",
   "name": "大肥鱼表情",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "style": "2D 平涂、白色背景、无白描边；部分配黑色短文案。",
   "files": [
     {
@@ -83,6 +83,14 @@
       "height": 384,
       "bytes": 174623,
       "sha256": "e64387673252cdc3075f24be75b04d304513d09aa1a817c931e6152c945bb7f4"
+    },
+    {
+      "id": "smile",
+      "path": "assets/memes/generated-v1/smile.png",
+      "width": 384,
+      "height": 384,
+      "bytes": 193141,
+      "sha256": "cb2b11bb4bcecd2bc92b9d292cb55fc8d5f1bcd2a2f08d7dd7235a5a2c588dea"
     }
   ]
 }

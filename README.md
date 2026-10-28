@@ -6,8 +6,8 @@
 
 - 俏皮、傲娇、有点耍脾气，爱偷吃和摸鱼，会损友式回嘴、偶尔爆句口，也会认真完成任务。
 - 最喜欢吃热腾腾的白米饭，小鱼干是零食。白米饭偏好和较有脾气的互动强度是本适配版按用户偏好补充的设定。
-- 闲聊、解释、接梗、简短确认和普通工作结果，每轮最终回复默认必须配一张图；解释和接梗缺少专用表情时用思考图，问好或确认用打招呼图，emoji 不代替图片。用户要求停图、严肃高风险场景或已确认无法展示时暂停。
-- 日常发图按全局偏好中的 10 项映射直接选图发送，不看图、不做文件探测，不额外读取图片、生成记录或校验清单；无需为发图额外加载技能。
+- 闲聊、解释、接梗、简短确认和普通工作结果，每轮最终回复默认必须配一张图；轻松回应和接梗用微笑图，认真解释和分析用思考图，问好或确认用打招呼图，emoji 不代替图片。用户要求停图、严肃高风险场景或已确认无法展示时暂停。
+- 日常发图按全局偏好中的 11 项映射直接选图发送，不看图、不做文件探测，不额外读取图片、生成记录或校验清单；无需为发图额外加载技能。
 - 默认人设和图片映射直接由全局偏好提供；普通任务不调用人设技能，开场只说明任务行动。用户明确调用技能时，仍遵循环境的技能告知要求。
 - 代码、命令、PR 描述和正式文档保持专业。生产事故等严肃场景收敛角色与发图。
 - 偶尔出现的括号小剧场是虚构角色台词，不代表真实内部推理。
@@ -24,7 +24,7 @@
 
 ## 本地安装
 
-需要 Git。以下命令适用于 macOS / Linux；全部 10 张表情图片已包含在 skill 中，无需单独下载或安装 Python。
+需要 Git。以下命令适用于 macOS / Linux；全部 11 张表情图片已包含在 skill 中，无需单独下载或安装 Python。
 
 ```bash
 git clone https://github.com/korilin/dafeifish-codex.git
@@ -39,7 +39,7 @@ cp -R dafeiyu "${CODEX_HOME:-$HOME/.codex}/skills/"
 
 要让新会话默认使用，将 [全局偏好模板](examples/global-preferences.md) 追加到自己的全局 `$CODEX_HOME/AGENTS.md`（通常为 `~/.codex/AGENTS.md`），保留已有指令。将其中 `__SKILL_DIR__` 替换为实际安装目录的绝对路径。
 
-模板直接包含人设、口令和 10 项图片映射，日常任务无需先读取或调用人设技能。因此开场可以直接说明“检查源文案并上传，随后核对结果”，不用再补一句“遵循大肥鱼技能的聊天偏好”。如有旧版“每个新会话首次回复前读取 SKILL.md”的全局指令，请用模板替换该段，避免继续触发技能调用。
+模板直接包含人设、口令和 11 项图片映射，日常任务无需先读取或调用人设技能。因此开场可以直接说明“检查源文案并上传，随后核对结果”，不用再补一句“遵循大肥鱼技能的聊天偏好”。如有旧版“每个新会话首次回复前读取 SKILL.md”的全局指令，请用模板替换该段，避免继续触发技能调用。
 
 `$dafeiyu` 仍可显式调用以配置、调整或维护人设与图库；实际调用技能时，运行环境仍可能要求说明所用技能。新开会话验证默认偏好，其他产品或设备不会自动同步。
 
@@ -47,11 +47,12 @@ cp -R dafeiyu "${CODEX_HOME:-$HOME/.codex}/skills/"
 
 ## 内置表情包
 
-10 张白底 PNG，统一 384×384，单张小于 200 KiB。采用 2D 平涂，人物和文字不带白描边；部分表情配黑色短文案。
+11 张白底 PNG，统一 384×384，单张小于 200 KiB。采用 2D 平涂，人物和文字不带白描边；部分表情配黑色短文案。
 
 | 图片 | 使用场景 |
 | --- | --- |
 | [打招呼](dafeiyu/assets/memes/generated-v1/hello.png) | 挥手问好、收到 |
+| [微笑](dafeiyu/assets/memes/generated-v1/smile.png) | 无文案自然微笑，轻松回应、接梗、友好闲聊 |
 | [白米饭](dafeiyu/assets/memes/generated-v1/rice.png) | 戴锅盔干饭；开饭！ |
 | [认真干活](dafeiyu/assets/memes/generated-v1/work.png) | 本鱼开工；仅限真正开始执行任务，不用于方案、未启动说明、中途或结果汇报 |
 | [搞定](dafeiyu/assets/memes/generated-v1/done.png) | 已验证的结果、庆祝 |
@@ -66,7 +67,7 @@ cp -R dafeiyu "${CODEX_HOME:-$HOME/.codex}/skills/"
 
 ## 图片生成与许可
 
-10 张内置表情根据用户提供的人物设计稿，通过 OpenAI 内置 image_gen 工具生成。完整提示词见 [generation.json](dafeiyu/references/generation.json)，图片大小与校验值见 [manifest.json](dafeiyu/assets/manifest.json)。
+11 张内置表情根据用户提供的人物设计稿，通过 OpenAI 内置 image_gen 工具生成。完整提示词见 [generation.json](dafeiyu/references/generation.json)，图片大小与校验值见 [manifest.json](dafeiyu/assets/manifest.json)。
 
 技能文本和代码采用 [MIT](LICENSE) 许可。人物设计和生成图片不在该 MIT 授权范围内；设计参考记录保留在生成元数据中。
 
@@ -78,7 +79,7 @@ dafeiyu/
 ├── agents/openai.yaml       # Codex 技能元数据
 ├── assets/
 │   ├── manifest.json        # 图片信息与 SHA-256
-│   └── memes/generated-v1/  # 10 张随包白底 PNG 小图
+│   └── memes/generated-v1/  # 11 张随包白底 PNG 小图
 └── references/              # 图库索引与生成提示词
 ```
 
